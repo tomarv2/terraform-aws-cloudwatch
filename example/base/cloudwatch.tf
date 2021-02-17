@@ -1,5 +1,5 @@
 module "cloudwatch" {
-  source = "./../../../_modules/aws/cloudwatch/cloudwatch"
+  source = "../.."
 
   email                                 = var.email
   teamid                                = var.teamid
