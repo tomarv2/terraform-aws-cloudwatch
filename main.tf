@@ -12,7 +12,6 @@ provider "aws" {
   profile                     = var.profile_to_use
 }
 
-
 locals {
   shared_tags  = map(
       "Name", "${var.teamid}-${var.prjid}",
