@@ -7,7 +7,7 @@ Terraform module for CloudWatch
 - Module tested for Terraform 0.14.
 - AWS provider version [3.29.0](https://registry.terraform.io/providers/hashicorp/aws/latest)
 - `main` branch: Provider versions not pinned to keep up with Terraform releases
-- `tags` releases: Tags are pinned with versions (use tag latest tag in your releases)
+- `tags` releases: Tags are pinned with versions (use latest tag in your releases)
 
 **NOTE:**
 - Read more on [tfremote](https://github.com/tomarv2/tfremote)
@@ -44,18 +44,6 @@ export PATH=$PATH:/usr/local/bin/
 - Update:
 ```
 example/custom/sample.tfvars
-```
-
-- Following entries are required:
-
-```
-- account_id
-- function_name
-- role_arn
-- source_file (relative path to the base directory or provide absolute path)
-- output_file_path
-- teamid
-- prjid
 ```
 
 - Change to: 
