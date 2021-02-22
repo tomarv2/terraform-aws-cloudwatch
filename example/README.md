@@ -1,22 +1,13 @@
-# AWS Cloudwatch
-
-Terraform to create Cloudwatch resources on AWS.
-
-This module focuses on [Cloudwatch](https://aws.amazon.com/cloudwatch/)
-
-**NOTE:** In most cases creating resources is heavily opinionated and or context-bound.
-
-## Terraform versions
-
-Terraform 0.12 
+## CloudWatch module usage
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
-| email | Team email, not individual email | `any` | n/a | yes |
-| prjid | Name of the project/stack.  EG: mystack | `any` | n/a | yes |
-| teamid | Name of the team or group e.g. devops, dataengineering. Should not be changed after running 'tf apply'. | `any` | n/a | yes |
+| cloudwatch\_path | name of the log group | `any` | n/a | yes |
+| email | email address to be used for tagging (suggestion: use group email address) | `any` | n/a | yes |
+| prjid | (Required) Name of the project/stack e.g: mystack, nifieks, demoaci. Should not be changed after running 'tf apply' | `any` | n/a | yes |
+| teamid | (Required) Name of the team/group e.g. devops, dataengineering. Should not be changed after running 'tf apply' | `any` | n/a | yes |
 
 ## Outputs
 
