@@ -30,13 +30,6 @@
 **NOTE:**
 - Read more on [tfremote](https://github.com/tomarv2/tfremote)
 
-
-## Usage 
-
-- **ECS:** Please refer to example directory [link](example/ecs/base/README.md)
-
-- **ECS with Sidecar:** Please refer to example directory [link](example/ecs_with_sidecar/base/README.md)
-
 ## How to use?
 
 Recommended method:
@@ -59,7 +52,7 @@ export TF_AWS_BUCKET_REGION=us-west-2
 export PATH=$PATH:/usr/local/bin/
 ```  
 
-- Updated `examples` directory to required values 
+- Updated `examples` directory with required values 
 
 - Run and verify the output before deploying:
 ```
