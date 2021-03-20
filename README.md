@@ -1,6 +1,6 @@
 <p align="center">
-    <a href="https://github.com/tomarv2/terraform-aws-cloudwatch/actions/workflows/unit_test.yml" alt="Unit Tests">
-        <img src="https://github.com/tomarv2/terraform-aws-cloudwatch/actions/workflows/unit_test.yml/badge.svg?branch=main" /></a>
+    <a href="https://github.com/tomarv2/terraform-aws-cloudwatch/actions/workflows/security_scans.yml" alt="Security Scans">
+        <img src="https://github.com/tomarv2/terraform-aws-cloudwatch/actions/workflows/security_scans.yml/badge.svg?branch=main" /></a>
     <a href="https://www.apache.org/licenses/LICENSE-2.0" alt="license">
         <img src="https://img.shields.io/github/license/tomarv2/terraform-aws-cloudwatch" /></a>
     <a href="https://github.com/tomarv2/terraform-aws-cloudwatch/tags" alt="GitHub tag">
