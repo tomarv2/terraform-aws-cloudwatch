@@ -86,7 +86,6 @@ tf -cloud aws destroy -var-file <path to .tfvars file>
 module "cloudwatch" {
   source = "../"
 
-  email           = "demo@demo.com"
   cloudwatch_path = "/demo"
   #-----------------------------------------------
   # Note: Do not change teamid and prjid once set.
@@ -103,7 +102,6 @@ Please refer to examples directory [link](examples)
 |------|-------------|------|---------|:--------:|
 | aws\_region | The AWS region to create resources | `string` | `"us-west-2"` | no |
 | cloudwatch\_path | name of the log group | `any` | n/a | yes |
-| email | email address to be used for tagging (suggestion: use group email address) | `any` | n/a | yes |
 | log\_group\_name | log group name | `any` | `null` | no |
 | prjid | (Required) Name of the project/stack e.g: mystack, nifieks, demoaci. Should not be changed after running 'tf apply' | `any` | n/a | yes |
 | profile\_to\_use | Getting values from ~/.aws/credentials | `string` | `"default"` | no |
