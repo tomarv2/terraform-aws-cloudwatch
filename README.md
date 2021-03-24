@@ -55,17 +55,17 @@ export PATH=$PATH:/usr/local/bin/
 
 - Run and verify the output before deploying:
 ```
-tf -cloud aws plan -var-file <path to .tfvars file>
+tf -cloud aws plan -var='teamid=foo' -var='prjid=bar'
 ```
 
 - Run below to deploy:
 ```
-tf -cloud aws apply -var-file <path to .tfvars file>
+tf -cloud aws apply -var='teamid=foo' -var='prjid=bar'
 ```
 
 - Run below to destroy:
 ```
-tf -cloud aws destroy -var-file <path to .tfvars file>
+tf -cloud aws destroy -var='teamid=foo' -var='prjid=bar'
 ```
 
 > ❗️ **Important** - Two variables are required for using `tf` package:
