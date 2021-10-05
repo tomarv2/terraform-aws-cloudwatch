@@ -11,6 +11,7 @@ variable "prjid" {
 variable "cloudwatch_path" {
   description = "name of the log group"
   type        = string
+  default     = "/"
 }
 
 variable "log_group_name" {
