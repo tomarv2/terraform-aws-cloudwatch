@@ -1,6 +1,6 @@
 provider "aws" {
   region  = "us-west-2"
-  profile = "<aws profile to use>"
+  profile = "default"
 }
 
 module "cloudwatch" {
