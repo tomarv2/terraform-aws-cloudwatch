@@ -136,5 +136,3 @@ No modules.
 | Name | Description |
 |------|-------------|
 | <a name="output_log_group"></a> [log\_group](#output\_log\_group) | The name of the log group. |
-
-
