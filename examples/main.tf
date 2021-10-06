@@ -16,6 +16,10 @@ module "cloudwatch" {
   source = "../"
 
   cloudwatch_path = "/demo"
+
+  custom_tags = {
+    ExportToS3 = "True"
+  }
   #-----------------------------------------------
   # Note: Do not change teamid and prjid once set.
   teamid = var.teamid
