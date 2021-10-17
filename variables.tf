@@ -31,3 +31,9 @@ variable "custom_tags" {
   description = "Extra custom tags"
   default     = null
 }
+
+variable "deploy_cloudwatch" {
+  description = "feature flag, true or false"
+  default     = true
+  type        = bool
+}
