@@ -40,3 +40,4 @@ jobs:
             Release for version ${{ github.ref }}. Please check CHANGELOG.md for more information.
           draft: false
           prerelease: false
+
