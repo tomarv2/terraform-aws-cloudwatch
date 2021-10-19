@@ -9,6 +9,10 @@ Changes unreleased.
 - test:
   - running pre-commit ([0d08f66](https://github.com/tomarv2/terraform-aws-cloudwatch/commit/0d08f66f211040b42879027d01db650985e309f7))
 
+## [v0.0.7](https://github.com/tomarv2/terraform-aws-cloudwatch/releases/tag/v0.0.7) - 2021-10-19 16:43:58
+
+Release for version refs/tags/v0.0.7. Please check CHANGELOG.md for more information.
+
 ## [v0.0.6](https://github.com/tomarv2/terraform-aws-cloudwatch/releases/tag/v0.0.6) - 2021-10-17 17:53:54
 
 Release for version refs/tags/v0.0.6. Please check CHANGELOG.md for more information.
