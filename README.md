@@ -139,3 +139,4 @@ No modules.
 |------|-------------|
 | <a name="output_log_group"></a> [log\_group](#output\_log\_group) | The name of the log group. |
 | <a name="output_log_group_arn"></a> [log\_group\_arn](#output\_log\_group\_arn) | Cloudwatch log group arn. |
+
