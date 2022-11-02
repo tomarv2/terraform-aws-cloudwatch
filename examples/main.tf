@@ -14,9 +14,8 @@ provider "aws" {
 module "cloudwatch" {
   source = "../"
 
-  cloudwatch_config = {
+  config = {
     "/demo" = {
-      log_group_name    = "hello_world"
       retention_in_days = 7
     }
   }
