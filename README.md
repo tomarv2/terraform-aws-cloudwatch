@@ -9,8 +9,8 @@
         <img src="https://img.shields.io/github/commit-activity/m/tomarv2/terraform-aws-cloudwatch" /></a>
     <a href="https://stackoverflow.com/users/6679867/tomarv2" alt="Stack Exchange reputation">
         <img src="https://img.shields.io/stackexchange/stackoverflow/r/6679867"></a>
-    <a href="https://twitter.com/intent/follow?screen_name=varuntomar2019" alt="follow on Twitter">
-        <img src="https://img.shields.io/twitter/follow/varuntomar2019?style=social&logo=twitter"></a>
+    <a href="https://twitter.com/intent/follow?screen_name=tomar_v2" alt="follow on Twitter">
+        <img src="https://img.shields.io/twitter/follow/tomar_v2?style=social&logo=twitter"></a>
 </p>
 
 ## Terraform module for AWS CloudWatch
@@ -92,16 +92,11 @@ Please refer to examples directory [link](examples)
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
-| Name | Version |
-|------|---------|
-| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0.1 |
-| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 4.35 |
+No requirements.
 
 ## Providers
 
-| Name | Version |
-|------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | ~> 4.35 |
+No providers.
 
 ## Modules
 
@@ -109,21 +104,13 @@ No modules.
 
 ## Resources
 
-| Name | Type |
-|------|------|
-| [aws_cloudwatch_log_group.cloudwatch](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/cloudwatch_log_group) | resource |
+No resources.
 
 ## Inputs
 
-| Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
-| <a name="input_config"></a> [config](#input\_config) | Cloudwatch log group configuration | `map(any)` | `{}` | no |
-| <a name="input_extra_tags"></a> [extra\_tags](#input\_extra\_tags) | Additional tags to associate | `map(string)` | `{}` | no |
+No inputs.
 
 ## Outputs
 
-| Name | Description |
-|------|-------------|
-| <a name="output_log_group_arn"></a> [log\_group\_arn](#output\_log\_group\_arn) | Cloudwatch log group ARN |
-| <a name="output_log_group_name"></a> [log\_group\_name](#output\_log\_group\_name) | Cloudwatch log group name |
+No outputs.
 <!-- END_TF_DOCS -->
